@@ -5,7 +5,7 @@ export const chartOptions = {
     show: false
   },
   noData: {
-    text: 'Sem resultados',
+    text: 'No results',
     align: 'center',
     verticalAlign: 'middle',
     offsetY: -15,
@@ -45,7 +45,7 @@ export const chartOptions = {
     theme: 'dark',
     y: {
       formatter: function (val: number) {
-        return `R$ ${val}`;
+        return `C$ ${val}`;
       }
     }
   }

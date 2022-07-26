@@ -54,7 +54,7 @@ function SalesByDate() {
         <div className="sales-by-date-chart">
           <ReactApexChart
             options={chartOptions}
-            series={[{ name: 'Vendas', data: initialData }]}
+            series={[{ name: 'Sales', data: initialData }]}
             type="bar"
             height={240}
             width="100%"
