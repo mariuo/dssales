@@ -10,7 +10,7 @@ public class SalesSummaryDTO implements Serializable {
 	private Double max;
 	private Double avg;
 	private Long count;
-	
+
 	public SalesSummaryDTO() {
 	}
 

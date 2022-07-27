@@ -1,16 +1,16 @@
-INSERT INTO tb_category(name) VALUES ('Comidas e bebidas');
-INSERT INTO tb_category(name) VALUES ('Cosméticos e higiene pessoal');
-INSERT INTO tb_category(name) VALUES ('Utilidades domésticas');
-INSERT INTO tb_category(name) VALUES ('Roupas e acessórios');
+INSERT INTO tb_category(name) VALUES ('Foods and Drinks');
+INSERT INTO tb_category(name) VALUES ('Cosmetics and personal hygiene');
+INSERT INTO tb_category(name) VALUES ('Domestic utility');
+INSERT INTO tb_category(name) VALUES ('Clothing and accessories');
 
-INSERT INTO tb_store(name) VALUES('Uberaba');
-INSERT INTO tb_store(name) VALUES('Uberlândia');
-INSERT INTO tb_store(name) VALUES('Araguari');
-INSERT INTO tb_store(name) VALUES('Ituiutaba');
+INSERT INTO tb_store(name) VALUES('Montreal');
+INSERT INTO tb_store(name) VALUES('QuebecVille');
+INSERT INTO tb_store(name) VALUES('Sherbrooke');
+INSERT INTO tb_store(name) VALUES('SaintBruno');
 
-INSERT INTO tb_payment_method(description) VALUES ('Crédito');
-INSERT INTO tb_payment_method(description) VALUES ('Débito');
-INSERT INTO tb_payment_method(description) VALUES ('Dinheiro');
+INSERT INTO tb_payment_method(description) VALUES ('Credit');
+INSERT INTO tb_payment_method(description) VALUES ('Debit');
+INSERT INTO tb_payment_method(description) VALUES ('Cash');
 
 INSERT INTO tb_sale(date,store_id,category_id,gender,volume,total,payment_method_id) VALUES ('2017-01-01',1,1,0,13,258.00,1);
 INSERT INTO tb_sale(date,store_id,category_id,gender,volume,total,payment_method_id) VALUES ('2017-01-01',1,2,2,15,77.00,2);
