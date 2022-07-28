@@ -5,12 +5,13 @@
 The application consists of a Visual Dashboard of visualization graphcs with a framework ReactApexChart. Creating graphs by a endpoint REST, with AXIOS framework.
 
 ## Layout web
-![Web 1](https://github.com/mariuo/dssales/tree/main/backend/docs/dashboard_1.png)
-![Web 2](https://github.com/mariuo/dssales/tree/main/backend/docs/dashboard_2.png)
-![Web 3](https://github.com/mariuo/dssales/tree/main/backend/docs/dashboard_3.png)
+![Web 1](https://github.com/mariuo/dssales/blob/main/backend/docs/dashboard_1.png?raw=true)
+![Web 2](https://github.com/mariuo/dssales/blob/main/backend/docs/dashboard_2.png?raw=true)
+![Web 3](https://github.com/mariuo/dssales/blob/main/backend/docs/dashboard_3.png?raw=true)
+
 
 ## Model
-![Conceptual model](https://github.com/mariuo/dssales/tree/main/backend/docs/model_dashboard.png)
+![Conceptual model](https://github.com/mariuo/dssales/blob/main/backend/docs/model_dashboard.png?raw=true)
 
 # Technologies
 ## MVC, Rest
